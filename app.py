@@ -21,5 +21,11 @@ for item in title:
         print(item2)
         print()
     print()
-        
+# ---------------------------------------------------------------------------------
     
+from selenium import webdriver 
+from selenium.webdriver.common.keys import Keys
+from sleep
+driver = webdriver.Chrome()
+driver.get("https://shoppinglive.naver.com/calendar?d=20221009")
+driver.implicitly_wait(time_to_wait=10)
